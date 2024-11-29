@@ -1,0 +1,31 @@
+{
+    "shape_config":{
+        "shape": "triangle",
+        "params":{
+            "vertices": [
+                [-0.3, -0.1],
+                [-0.1, 1.2],
+                [ 0.4, 0.3]
+            ],
+            "colors": [
+                [0,0,1],
+                [1,0,0],
+                [0,1,0]
+            ]
+        }
+    },
+    "cameras_config":{
+        "shape": "circle",
+        "params":{
+            "radius": 1.5,
+            "center": [0.1, 0.3],
+            "random_init": false
+        },
+        "resolution": 100,
+        "fov": 60,
+        "near": 0.0,
+        "far": 3.0
+    },
+    "num_cams": 20,
+    "test_ratio": 0.2
+}

@@ -26,7 +26,7 @@ class DistributeCameras:
         return cams
 
 class PinholeCamera2D:
-    def __init__(self, position, theta, fov, resolution):
+    def __init__(self, position, theta:float, fov:float, resolution:int):
         """
         Initialize the 2D camera.
 

@@ -1,0 +1,1 @@
+python main.py --N_samples 128 --white_bkgd
