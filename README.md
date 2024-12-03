@@ -10,6 +10,10 @@ The 2D shape can be defined in the config under ```dataset``` directory. Here is
 
 ![img](./assets/dset_example.png)
 
+## Model setup and config
+
+Model should be registered in ```models/__init__.py```, and the config of the model should be put in ```configs/model_configs/{model_name}_conf.py```
+
 ## Training and visualization
 
 Here is a reconstruction results in the global view with 1000 iterations training on vanilla NeRF by the data ```dataset/cache/dataset_cache.joblib```. The visualization of test results are concatenation of [prediction, ground truth, diff heatmap]
@@ -21,6 +25,7 @@ Here is a reconstruction results in the global view with 1000 iterations trainin
 - [x] positional embeddings
 - [ ] models
     - [x] vanilla NeRF
+    - [ ] 3dgs
     - [ ] instant-ngp
 - [x] training
 - [x] evaluation and visualization

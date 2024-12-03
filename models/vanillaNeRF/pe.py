@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import numpy as np
 
 class Embedder:
     def __init__(self, **kwargs):
